@@ -120,3 +120,25 @@ Båndbredden er bærebølgen $\plusmn$ signal. Oppstår "sidebånd" i området m
 Minimum båndbredde for å sende et stødig signal:
 
 $BW = \frac{1}{t_0}$
+
+### Filter
+
+#### Low-Pass
+![lowpass circuit](images/image.png)
+
+Resistans i serie med $V_{out}$, kondensator i parallell med $V_{out}$
+
+$X_c = \frac{1}{2\pi fC}$
+
+
+#### High-Pass
+![highpass circuit](images/image-1.png)
+
+Kondensator i serie med $V_{out}$, resistans i parallell med $V_{out}$
+
+$X_c = \frac{1}{2\pi fC}$
+
+#### Band-pass
+![alt text](images/image-2.png)
+Kombinasjon av lowpass og highpass
+

@@ -125,7 +125,7 @@ $BW = \frac{1}{t_0}$
 
 Vi kan bruke en kondensator for å begrense visse frekvenser fordi $X_c = \frac{1}{2\pi fC}$.
 
-Cut off-frekvensen bestemmes ved der filteret demper med 3dB. Det skjer ved $\frac{1}{\sqrt{2}}$ av gain.
+Cut off-frekvensen bestemmes ved der filteret demper med 3dB. Det skjer ved $\frac{1}{\sqrt{2}}$ av gain. Merk at dette blir $\frac{1}{2}$ når 
 
 Cut off-frekvensen kan regnes ut slik: $f_c = \frac{1}{2\pi RC}$
 

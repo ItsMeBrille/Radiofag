@@ -123,12 +123,17 @@ $BW = \frac{1}{t_0}$
 
 ### Filter
 
+Vi kan bruke en kondensator for å begrense visse frekvenser fordi $X_c = \frac{1}{2\pi fC}$.
+
+Cut off-frekvensen bestemmes ved der filteret demper med 3dB. Det skjer ved $\frac{1}{\sqrt{2}}$ av gain.
+
+Cut off-frekvensen kan regnes ut slik: $f_c = \frac{1}{2\pi RC}$
+
+
 #### Low-Pass
 ![lowpass circuit](images/image.png)
 
 Resistans i serie med $V_{out}$, kondensator i parallell med $V_{out}$
-
-$X_c = \frac{1}{2\pi fC}$
 
 
 #### High-Pass
@@ -136,9 +141,6 @@ $X_c = \frac{1}{2\pi fC}$
 
 Kondensator i serie med $V_{out}$, resistans i parallell med $V_{out}$
 
-$X_c = \frac{1}{2\pi fC}$
-
-#### Band-pass
+#### Band-Pass
 ![alt text](images/image-2.png)
-Kombinasjon av lowpass og highpass
-
+Kombinasjon av low-pass og high-pass for å slippe igjennom, eller kutte vekk et bestemt bånd.
